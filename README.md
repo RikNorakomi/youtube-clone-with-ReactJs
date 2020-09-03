@@ -2,6 +2,8 @@ Installed packages:
 
 - npm install @material-ui/core
 - npm install @material-ui/icons
+- npm install react-router-dom
+- https://reactrouter.com/web/guides/quick-start
 
 This project is a code along from the youtube clone tutorial from Clever Programmer: https://www.youtube.com/watch?v=NT299zIk2JY&t=1531s
 
