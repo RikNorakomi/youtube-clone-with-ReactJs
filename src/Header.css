@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  /* Divides children evenly over screen and adds space between them */
+  justify-content: space-between;
+  padding: 20px;
+
+  /* This makes the header sticky to the top. Z index is like elevation on Android. 
+     And background color is needed because otherwise it's transparent and you see content underneed it */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__logo {
+  height: 25px;
+  margin-left: 20px;
+  object-fit: contain;
+  /* If an
+   image wouldn't be a svg you can stretch it evenly with object-fit */
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+
+.header__icon {
+  margin-right: 8px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}

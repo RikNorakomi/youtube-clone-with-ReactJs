@@ -1,3 +1,10 @@
+Installed packages:
+
+- npm install @material-ui/core
+- npm install @material-ui/icons
+
+This project is a code along from the youtube clone tutorial from Clever Programmer: https://www.youtube.com/watch?v=NT299zIk2JY&t=1531s
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

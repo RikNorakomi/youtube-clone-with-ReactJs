@@ -1,0 +1,18 @@
+.recommendedVideos {
+  flex: 0.8;
+  /* border: 1px solid black; */
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.recommendedVideos > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.recommendedVideos__videos {
+  display: flex;
+  /* instead of having all videos layed out horizontal with scroll bar
+     flex wrap make sure it wrappes as many video card on the screen as possible and then continue on next line */
+  flex-wrap: wrap;
+}
