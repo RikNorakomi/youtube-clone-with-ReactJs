@@ -1,9 +1,25 @@
+The app is deployed via firebase hosting at: https://clone-256cf.web.app/ !!!!
+
 Installed packages:
 
 - npm install @material-ui/core
 - npm install @material-ui/icons
 - npm install react-router-dom
 - https://reactrouter.com/web/guides/quick-start
+
+random images from:
+
+- https://picsum.photos/
+
+to deploy to firebase hosting from the terminal do:
+
+- firebase init
+- login if you need to
+- select hosting via the arrow keys, press spacebar to select and hit enter
+- What do you want to use as your public directory? ==> build
+- Configure as a single-page app (rewrite all urls to /index.html)? ==> Yes
+- npm run build (creates and optimized production build & strips out all unnecessary tools)
+- firebase deploy
 
 This project is a code along from the youtube clone tutorial from Clever Programmer: https://www.youtube.com/watch?v=NT299zIk2JY&t=1531s
 

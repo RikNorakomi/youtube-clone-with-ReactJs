@@ -10,8 +10,24 @@ function VideoRow({
   title,
   image,
 }) {
-  return <div className="videoRow"></div>;
-  in video at 3:14:21
+  return (
+    <div className="videoRow">
+      <img src={image} alt="" />
+      <div className="videoRow__text">
+        <h3>{title}</h3>
+        <p className="videoRow__headline">
+          {channel} .{" "}
+          <span className="videRow_subs">
+            <span className="videoRow__subsNumber">{subs}</span>
+            Subscribers{" "}
+          </span>
+          . {views} Views . {timestamp}
+        </p>
+        <p className="videoRow__description">{description}</p>
+      </div>
+    </div>
+  );
+  // in video at 3:18:21
 }
 
 export default VideoRow;

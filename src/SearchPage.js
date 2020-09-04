@@ -25,9 +25,10 @@ function SearchPage() {
       <hr />
 
       <VideoRow
+        title="title for the seconf video row"
         views="1.4M views"
         subs="54K"
-        description="This is the description for the VIdeo Row with some typos"
+        description="This is the description for the VIdeo Row with so.... This is the description for the VIdeo Row with some typos"
         image="https://picsum.photos/200/300?random=2"
         channel="Hoppa Channel!"
       />
