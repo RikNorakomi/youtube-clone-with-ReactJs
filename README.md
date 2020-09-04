@@ -1,3 +1,5 @@
+Simple youtube UI clone with routing functionality between recommended videos and search page.
+
 The app is deployed via firebase hosting at: https://clone-256cf.web.app/ !!!!
 
 Installed packages:
